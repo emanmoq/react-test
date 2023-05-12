@@ -1,0 +1,227 @@
+body {
+    font-size: 16px;
+}
+
+header {
+    background-color: #17155a;
+    padding-top: 10px
+}
+
+.searchIcon {
+    position: absolute;
+    width: 100px;
+    z-index: 2222;
+    left: 5px;
+    border:0;
+    background-color: transparent;
+}
+
+.navbar {
+    padding: 0;
+}
+
+form {
+    margin: 0
+}
+nav{
+    width: 100%;;
+}
+
+.searchBox {
+    float: right;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    position: relative;
+    transition: all .5s;
+    ;
+}
+
+.searchInput.dispalySearch {
+    opacity: 1;
+    width: 200px;
+    transition: all .5s;
+    ;
+}
+
+.searchInput {
+    background-color: rgba(255, 255, 255, .3);
+    border: 0;
+    opacity: 0;
+    width: 0;
+    transition: all .5s;
+    ;
+    color: white;
+    padding-left: 50px;
+}
+
+.navbar-brand {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn span {
+    align-self: center;
+
+}
+
+.bookMarkBtn {
+    color: white;
+    float: left;
+    background-color: #17155a;
+    padding: 10px;
+    border: 1px solid #17155a;
+    transition: all .5s;
+    height: 50px;
+}
+
+.rightSide {
+    float: right;
+}
+
+.title {
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.topStpries {
+    padding: 20px 0
+}
+
+.bookMarkBtn:hover {
+    background-color: transparent;
+    transition: all .5s;
+
+}
+
+.filterSelect {
+    float: left;
+    margin-left: 20px;
+    border: 0;
+    background-color: transparent;
+    width: 200px;
+    border-bottom: 1px solid #17155a;
+    height: 50px;
+}
+
+.newsBigBox {
+    height: 500px;
+  
+}
+.newsImg {
+    width: 100%;
+    height: 100%;
+}
+.newsImg img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.newsMainBox{
+    box-shadow:0 5px 5px rgba(0, 0, 0, .2);
+    display: block;
+    position: relative;
+    border-bottom: 4px solid ;
+}
+.newsDetailsBox{
+    position: absolute;
+    width:100%;
+    height: 35%;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(23, 21, 90, .9);
+    color: white;
+    padding: 10px;
+    overflow: hidden;
+}
+.redBorder{
+border-bottom-color: #b33030;
+}
+.newsDetailsBox h5{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.greenBorder{
+    border-bottom-color: #10700d;
+}
+.yelloBorder{
+    border-bottom-color: #d5c91a;
+
+}
+.blueBorder{
+    border-bottom-color: #0847e9;
+ 
+}
+.newsSmallBox{
+    height:315px;
+    margin-bottom: 20px;
+
+}
+.noImgBox{
+    height: 160px;
+}
+.noImgBox .newsDetailsBox{
+    height: 100%;
+}
+.sectionContent{
+    margin-top: 50px;
+}
+footer{
+    background-color: #17155a;
+    padding:50px 0
+}
+.newsDetailsCont{
+    display: flex;
+
+    justify-content: space-between;
+}
+.newsTitle{
+    font-weight: bold;
+    font-size: 35px;
+    margin:20px 0
+}
+.newsDetailsSec{
+    padding:100px 0
+}
+.newsContLeftSide{
+    width: 50%;
+}
+.newsDate{
+    display: block;
+    color:#a59f9f;
+    font-size: 18px;
+    margin:20px 0
+}
+.newsDetailsSec  .bookMarkBtn{
+    display: block;
+    float: none;
+    width: 200px;
+}
+.newsContentImg{
+    display: flex;
+    align-self: center;
+
+}
+.rightSideCont{
+    width: 40%;
+}
+.rightSideCont span{
+color:#a59f9f;
+font-size: 15px;
+}
+.smallTite{
+    font-size: 30px;
+    font-weight: 500;
+}
